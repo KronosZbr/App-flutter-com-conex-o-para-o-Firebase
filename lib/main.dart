@@ -6,12 +6,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyCG6-xbSzM-j8ly094Cwj8agQ46hD3YsDA",
-      appId: "1:656408733343:android:342ec3dfe7044806f9e4aa",
-      messagingSenderId: "656408733343",
-      projectId: "conexaofirebase2-242d4",
+      apiKey: "",
+      appId: "",
+      messagingSenderId: "",
+      projectId: "",
       databaseURL:
-          "https://conexaofirebase2-242d4-default-rtdb.firebaseio.com/",
+          "",
     ),
   );
   runApp(MyApp());
